@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Robot', sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+.button {
+    height: 50px;
+    width: 50px;
+    /* padding: 20px; */
+    margin: 0 3px;
+    border-radius: 30%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: 8px 0;
+    width: 100%;
+}
+.row input {
+    width: 210px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
